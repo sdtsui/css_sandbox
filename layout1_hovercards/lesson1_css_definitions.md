@@ -1,3 +1,5 @@
+
+
 CSS Definitions:
 
 *CSS Framework* - Set of CSS Classes that make page layout easy to implement.
@@ -21,7 +23,12 @@ Todo:
   Triangle:
   Octagon:
   Hexagon:
-  Rhombus
+  Rhombus:
+
+
+EoG: creating shapes in CSS
+EoG: liquid layouts, maxdesign
+
 
 Tackling a New Design: 
   Split it up piece by piece into nested boxes.
