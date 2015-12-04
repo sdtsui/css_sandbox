@@ -3,7 +3,8 @@
  [x] main layouts, draw in notepad
  [x] implement 1, push
  [x] setup repo, queue questions
- [] finish udacity course skip
+ [] finish udacity course skip 
+  -breakpoint: demo1 finishing video
  [] implement gh cards
  [] polish repo, look for next course
 
