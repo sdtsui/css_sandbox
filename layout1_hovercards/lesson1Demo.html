@@ -1,0 +1,66 @@
+<html>
+<head>
+</head>
+<body>
+
+<div class="top_banner">
+  <h1>Header</h1>
+  <div class="background_img_container">
+  </div>
+</div>
+
+<br>
+
+<div class="content">
+  <div class="content_div">
+    <div class="img1">Left Image</div>
+  </div>
+  <div class="content_div">
+    <div class="img1">Right Image</div>
+  </div>
+</div>
+
+<style type="text/css" media="screen">
+  .top_banner {
+    height: 20%;
+    position: relative;
+  }
+
+  .background_img_container {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-image:url(http://webneel.com/wallpaper/sites/default/files/images/04-2013/1-beach-sea-photography.jpg);
+  };
+
+  .content {
+    height: 80%;
+    position: absolute;
+  }
+
+  .content_div {
+    height: 100%;
+    width: 45%;
+    padding: 2%;
+    float: left;
+  }
+
+  .img1 {
+    background-image:url(http://webneel.com/wallpaper/sites/default/files/images/04-2013/1-beach-sea-photography.jpg);
+    height: 100%;
+    width: 100%;
+    color: white;
+  }
+
+
+  Notes/Qs:
+
+</style>
+/*  
+  1. Why does position: absolute 'cancel' the effect of float: left?
+  2. position: relative and position: abolsute for inheriting. How do I do this more cleanly?
+  3. What's the difference between a div tag with background image, and an img element?
+*/
+
+</body>
+</html>
